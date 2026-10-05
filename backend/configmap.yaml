@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: frontend-backend
+data:
+  DB_HOST: "database-service"
+  DB_PORT: "3306"
+  DB_NAME: "sammy"
